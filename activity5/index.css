@@ -1,0 +1,12 @@
+.card-text{
+    height: 200px;
+    overflow: scroll;
+    width: 250px;
+    
+}
+body{
+    background-color: rgb(250, 234, 192);
+}
+.footer{
+    list-style: none;
+}
