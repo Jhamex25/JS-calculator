@@ -1,0 +1,21 @@
+
+
+#body-docs{background-image: url(chen-mizrach-jL6PTWI7h18-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+.main2{
+    font-style: oblique;
+    color: rgb(13, 46, 46);
+    padding: 10px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-1{
+    color: white
+    background-color: orange;
+    font-weight: 100;
+}
+
+    

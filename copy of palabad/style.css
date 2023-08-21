@@ -1,0 +1,39 @@
+ 
+ 
+ 
+ 
+ .header{
+    font-family: cursive;
+    color: chocolate;
+    text-align: center;
+    background-color: aqua;
+    padding: 12px;
+
+}
+.body-docs{
+    background-image: url(759797.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    text-align: right;
+    text-size-adjust: 100%;
+   
+}
+.button-1{
+    color: rgb(225, 0, 255);
+    background-color: antiquewhite;
+}
+.search{
+    text-align: left;
+
+}
+
+.comedy{
+    height: 50vh;
+    align-content: center;
+    display: flex;
+    justify-content:center;
+    
+}

@@ -1,0 +1,50 @@
+#header1{
+    background-color: aquamarine;
+    color: rgb(0,0,0);
+}
+#body-docs{background-image: url(download.jfif); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+#div1{
+    background-color: bisque;
+    color: blue;
+    border: 30px color black;
+
+}
+#ext_sample{
+    border: 5px; solid green; 
+
+}
+#div_sample{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+.box{
+    padding: 5%;
+    margin: 10%;
+    border: 20px solid red;
+    box-shadow: 10px 15px 10px 50px red;
+}
+#center-box{
+    border: 1px solid black;
+    width: 500px;
+    margin-left: auto;
+    text-align: center;
+    font-family:'';
+    font-size: 12pt;
+    float: left;
+}
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25pt;
+    text-align: center;
+    text-decoration: underline;
+    color: aquamarine;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px gold;
+    letter-spacing: 5px;
+}
+

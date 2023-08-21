@@ -1,0 +1,23 @@
+.form-div{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: beige;
+    width: fit-content;
+    margin: auto;
+}
+/* to remove the error when zoom in and out */
+/* make width to fit-content */
+h1{
+    margin: 0px;
+}
+#register{
+    background-color: orange;
+    border-radius: 5px;
+    width: 100px;
+}
+#register:hover {
+    background-color: aqua;
+    width: 110px;
+    transition: width 0.5s;
+}

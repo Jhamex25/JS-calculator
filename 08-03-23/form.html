@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div style="background-color: aquamarine;">
+        <table>
+        <form action="#" method="#">
+            <tr>
+                <td>
+                    <label for="i-lname">First Name</label>    
+                </td>
+                <td>
+                    <input type="text" id="fname" required>
+                </td>
+            <tr>
+                <td>
+                    <!-- <label for="i-lname">Last Name:</label> -->
+                </td>
+                <td>
+                    <input type="text" id="lname"
+                    placeholder="Last name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input type="number" max="60" min="5">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cnum">Mobile No:</label>
+                </td>
+                <td>
+                    <input type="number" maxlength="11"
+                    minlength="2" id="cnum">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" name="user_password" id="Password" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="imail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Date</label>
+                </td>
+                <td>
+                    <input type="date" name="date" id="date" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text">Text</label>
+                </td>
+                <td>
+                    <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Please select your music gernre</p>
+                 
+                    <input type="radio" name="genre" id="rock" value="rock">
+              
+                    <label for="rock">Rock</label>
+            
+                    <input type="radio" name="genre" id="pop" value="pop">
+              
+                    <label for="rock">Pop</label>
+              
+                    <input type="radio" name="genre" id="jazz" value="jazz">
+                
+                    <label for="jazz">Jazz</label>
+
+                    
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p>Please select your favorite food</p>
+                    <input type="checkbox" name="food" id="ramen" value="ramen">
+                    <label for="ramen">Ramen</label>
+                    <input type="checkbox" name="food" id="sushi" value="sushi">
+                    <label for="sushi">Sushi</label>
+                    <input type="checkbox" name="food" id="curry" value="curry">
+                    <label for="curry">Curry</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>What is your device?</p>
+                    <select name="device" id="device">
+                        <option value="macbook">Macbook</option>
+                        <option vaalue="ipad">Ipad</option>
+                        <option value="iphone">Iphone</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Select a Car</p>
+                    <select name="car" id="car" multiple>
+                        <option value="toyota">Toyota</option>
+                        <option value="nissan">Nissan</option>
+                        <option value="honda">Honda</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Choose your best photo</p>
+                    <input type="file" name="file" id="file">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="sumbmit" id="submit" value="submit">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=Dp-_6qyGxac"> </a>
+                    <button>Push me to self destruct</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="image" src="https://t3.ftcdn.net/jpg/04/27/36/98/360_F_427369886_Vj9B7B2hK4Onl8lKfla45q86Wxz6cvLy.jpg" name="submit" id="submit" width="150%" height="150%">
+                </td>
+            </tr>
+        </form>
+    </div>
+</body>
+</html>
