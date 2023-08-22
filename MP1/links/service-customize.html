@@ -50,11 +50,62 @@
                   </li>
                   </li>
                 </ul>
+                  <button type="button" class="btn btn-primary m-2 p-1" data-bs-toggle="modal" data-bs-target="#modalRegisterForm">
+                    Register
+                  </button>
+    
+                  <!-- Modal register -->
+                  <div class="modal fade" id="modalRegisterForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-4" id="exampleModalLabel">Register</h1>
+                          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                        </div>
+                        <div class="modal-body bg-warning">
+                            <form >
+                                <table class="container">
+                                    <tr>
+                                        <tr>
+                                            <td><input type="text" id="username" name="username" placeholder="Full name"></td>
+                                        </tr>
+                                        <tr>
+                                          <td><input type="email" id="" name="email" placeholder="Email"></td>
+                                      </tr>
+                                      <tr>
+                                        <td><input type="text" id="username" name="username" placeholder="Create username"></td>
+                                    </tr>
+                                      <tr>
+                                        <td><input type="password" id="password" name="password" placeholder="Create password"></td>
+                                    </tr>
+                                    <tr>
+                                      <td><input type="password" id="password" name="password" placeholder="Confirm password"></td>
+                                    </tr> 
+
+                                            <td><input type="checkbox" id="terms" name="terms"></td>
+                                            <td>I agree to the terms and condition</td>
+                                        <!-- <tr >
+                                            <td colspan="2">  
+                                            <a href="#">Register</a></td>
+                                    </tr> -->
+                                    </tr>
+                                </table>
+                            </form>
+                    
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of Register -->
                   <button type="button" class="btn btn-primary m-2 p-1" data-bs-toggle="modal" data-bs-target="#modalLoginForm">
                     Login
                   </button>
-    
-                  <!-- Modal -->
+
+                  <!-- Modal login -->
                   <div class="modal fade" id="modalLoginForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -62,24 +113,18 @@
                           <h1 class="modal-title fs-4" id="exampleModalLabel">Log in</h1>
                           <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body bg-warning">
                             <form>
                                 <table>
                                     <tr>
-                                        <tr>
-                                            <td>Username</td>
-                                            <td><input type="text" id="username" name="username"></td>
-                                        </tr><tr>
-                                            <td>Password</td>
-                                            <td>
-                                                <input type="password" id="password" name="password"></td>
-                                        </tr> 
-                                            <td><input type="checkbox" id="terms" name="terms"></td>
-                                            <td>I agree to the terms and condition</td>
-                                        <tr >
-                                            <td colspan="2">  
-                                            <a href="#">Register</a></td>
+                                      <tr>
+                                        <td><input type="text" id="username" name="username" placeholder="username"></td>
                                     </tr>
+                                  <tr>
+                                    <td><input type="password" id="password" name="password" placeholder="password"></td>
+                                  </tr>
+                                        <td><input type="checkbox" id="terms" name="terms"></td>
+                                            <td>I agree to the terms and condition</td>
                                     </tr>
                                 </table>
                             </form>

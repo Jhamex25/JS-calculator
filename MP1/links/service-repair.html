@@ -50,35 +50,94 @@
                   </li>
                   </li>
                 </ul>
-                <!-- ignup modal -->
-                <!-- <div class="success p-0 me-4">
-                  <a href="" class="btn btn-outline-success" data-toggle="modal" data-target="#modalLoginForm">Login</a>
-                </div> -->
-                <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Launch demo modal
-                  </button>
+                <button type="button" class="btn btn-primary m-2 p-1" data-bs-toggle="modal" data-bs-target="#modalRegisterForm">
+                  Register
+                </button>
     
-                  <!-- Modal -->
-                  <div class="modal fade" id="modalLoginForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
+                      <!-- Modal register -->
+                      <div class="modal fade" id="modalRegisterForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-4" id="exampleModalLabel">Register</h1>
+                              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                            </div>
+                            <div class="modal-body bg-warning ">
+                                <form>
+                                    <table>
+                                        <tr>
+                                            <tr>
+                                                <td><input type="text" id="username" name="username" placeholder="Full name"></td>
+                                            </tr>
+                                            <tr>
+                                              <td><input type="email" id="" name="email" placeholder="Email"></td>
+                                          </tr>
+                                          <tr>
+                                            <td><input type="text" id="username" name="username" placeholder="Create username"></td>
+                                        </tr>
+                                          <tr>
+                                            <td><input type="password" id="password" name="password" placeholder="Create password"></td>
+                                        </tr>
+                                        <tr>
+                                          <td><input type="password" id="password" name="password" placeholder="Confirm password"></td>
+                                        </tr> 
+    
+                                                <td><input type="checkbox" id="terms" name="terms"></td>
+                                                <td>I agree to the terms and condition</td>
+                                            <!-- <tr >
+                                                <td colspan="2">  
+                                                <a href="#">Register</a></td>
+                                        </tr> -->
+                                        </tr>
+                                    </table>
+                                </form>
+                        
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
+                      <!-- end of Register -->
+                      <button type="button" class="btn btn-primary m-2 p-1" data-bs-toggle="modal" data-bs-target="#modalLoginForm">
+                        Login
+                      </button>
     
-                  <!-- end of login -->
+                      <!-- Modal login -->
+                      <div class="modal fade" id="modalLoginForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-4" id="exampleModalLabel">Log in</h1>
+                              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                            </div>
+                            <div class="modal-body bg-warning">
+                                <form>
+                                    <table>
+                                        <tr>
+                                          <tr>
+                                            <td><input type="text" id="username" name="username" placeholder="username"></td>
+                                        </tr>
+                                      <tr>
+                                        <td><input type="password" id="password" name="password" placeholder="password"></td>
+                                      </tr>
+                                            <td><input type="checkbox" id="terms" name="terms">I agree to the terms and condition</td>
+                                                
+                                        </tr>
+                                    </table>
+                                </form>
+                        
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Log in</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end of login -->
                   <!-- search bar -->
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
