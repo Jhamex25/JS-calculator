@@ -14,5 +14,17 @@ function clr(){
     let num = document.getElementById("num");
     num.value = "";
 }
-console.log
+function del(){
+    num.value = num.value.slice(0, -1);
+}
+function sqrt() {
+    let currentValue = parseFloat(num.value);
+    if (!isNaN(currentValue)) {
+        num.value = Math.sqrt(currentValue);}
+    }
 
+function prcnt() {
+    var currentValue = parseFloat(num.value);
+    if (!isNaN(currentValue)) {
+    num.value = (currentValue / 100).toFixed(2);}
+    }
